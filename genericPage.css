@@ -1,0 +1,200 @@
+/*===============================*/
+/* Used a free solution for footer */
+/* "Sticky Footer by Ryan Fait" */
+/* "http://ryanfait.com/" */
+* {
+	margin: 0;	
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -40px;
+}
+.footer, .push {
+	height: 40px;
+}
+
+/*=================================*/
+/*      Header                     */
+#nav{
+	width: 100%;
+	height:80px;
+	background-color: gray;
+	text-align: center;
+	vertical-align:middle;
+}
+
+#nav table{
+	margin-left:auto;
+	margin-right:auto;
+	height: 100%;
+}
+
+#nav table tr{
+	font-size: 20px;
+}
+
+#nav table tr td{
+	padding: 0px 10px;
+	width:120px;
+}
+
+.navTitle{
+	color: #006600;
+	border-bottom-style:solid;
+	border-bottom-width: 2px;
+	border-top-color: #282D2E;
+}
+
+#nav table .hover:hover{
+	background-color: #006600;
+	color:black;
+	border-radius: 3px;
+}
+
+/*=================================*/
+/*      My Footer                     */
+#footer{
+	width:100%;
+	bottom:0;
+	background:gray;
+}
+
+#footer table{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*------------------------------------------*/
+/* needs cleaning up */
+
+body{
+	background-image:url('/resources/background.png');
+}
+hr {
+   display: block;
+   position: relative;
+   padding: 0;
+   margin: 8px auto;
+   height: 1px;
+   width: 100%;
+   max-height: 1px;
+   font-size: 1px;
+   line-height: 1px;
+   clear: both;
+   border: none;
+   border-top: 2px solid #aaaaaa;
+   border-bottom: 2px solid #ffffff;
+}
+.pageWrapper{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.innerWrapper{
+	background-color:#428bca;
+}
+.myButton{
+	color: #FFFFFF;
+	background-color: #006600;
+	border-color: #000000;
+	width: 100%;
+}
+.panel-default>.panel-heading{
+	background-color:gray;
+	color: black;
+	font-size:18px;
+	font-weight:bold;
+}
+.imgLink{
+	border:2px solid black;
+	width:100%;
+	height:40px;
+}
+.workAreaCol{
+	text-align:right;
+	font-style:italic;
+	font-size:19px;
+}
+.title{
+	font-weight:bold;
+	font-size:22px;
+	width:50%
+}
+.workDate{
+	font-style:italic;
+	float:right;
+}
+.label{
+	background-color:#006600;
+	color:white;
+}
+.panel>.list-group .list-group-item{
+	border-width:3px;
+	border-color:black;
+}
+.panel-heading+.list-group .list-group-item:first-child{
+	border-width:3px;
+	border-color:gray;
+}	
+.panel>.list-group:last-child .list-group-item:last-child{
+	border-bottom-style: solid;
+	border-bottom-width:3px;
+	border-bottom-color:gray;
+}
+.pageHeading{
+	text-align:center;
+	font-weight:bold;
+	color: black;
+	font-size: 30px;
+}
+.link{
+	font-weight:bold;
+	color:#006600;
+	text-decoration:underline;
+}
+.gameIcon{
+	border: 2px solid white;
+	float:right;
+}
+.centeredObj{
+	margin-left:auto;
+	margin-right:auto;
+}
+.gameIconCol{
+	width:100%;
+}
+.outerInfo{
+	border:2px solid gray;
+}
+.img-circular{
+	margin-left:auto;
+	margin-right:auto;
+	width: 80px;
+	height: 80px;
+	background-size: cover;
+	display: block;
+	border-top-left-radius: 40px;
+	-webkit-border-top-left-radius: 40px;
+	-moz-border-top-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+	-webkit-border-bottom-right-radius: 40px;
+	-moz-border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	-webkit-border-bottom-right-radius: 40px;
+	-moz-border-bottom-left-radius: 40px;
+	border-top-right-radius: 40px;
+	-webkit-border-top-right-radius: 40px;
+	-moz-border-top-right-radius: 40px;
+	border:1px solid black;
+}
+.pcImage{
+	border: 3px solid black;
+	width: 60%;
+}

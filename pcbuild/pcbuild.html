@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta property="og:title" content="Andrew Boutin - Game Development" />
+		<meta property="og:url" content="http://www.andrewboutin.com/gamedev.html" />
+		<meta property="og:image" content="http://www.andrewboutin.com/resources/ProfileLarge.jpg" />
+		<meta property="og:description" content="Andrew Boutin's Website - Game Development Page" />
+		<meta charset="UTF-8">
+		<meta name="author" content="Andrew Boutin">
+		<title>Video Game Development</title>
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/genericPage.css">
+		<link rel="shortcut icon" href="/resources/EpicCrawlIcon.ico">
+		
+		<script type="text/javascript">
+			var i = 0;
+			var images = new Array();
+			
+			images[0] = "/pcbuild/pc-1.jpg";
+			images[1] = "/pcbuild/pc-2.jpg";
+			// TODO: Add rest of images in
+			
+			var numImages = images.length - 1;
+			
+			var captions = new Array();
+			
+			captions[0] = "First Caption";
+			captions[1] = "Second Caption";
+			
+			function swapImage(){
+				var el = document.getElementById("mydiv");
+				el.innerHTML = captions[i];
+				
+				var img = document.getElementById("slide");
+				img.src = images[i];
+				
+				i = (i < numImages) ? i + 1 : 0;
+				
+				setTimeout("swapImage()", 5000);
+			}
+			
+		</script>
+	</head>
+	<body onLoad="swapImage()">
+		<div class="wrapper">
+			<div id="nav">
+				<table>
+					<tr>
+						<td><a class="navTitle hover" href="http://www.andrewboutin.com">Main Page</a></td>
+						<td><a class="navTitle hover" href="http://www.andrewboutin.com/gamedev.html">Game Dev</a></td>
+						<td><img class="img-circular" src="/resources/Profile.jpg"></td>
+						<td><a class="navTitle hover" href="http://www.andrewboutin.com/work.html">Work Exp</a></td>
+						<td><a class="navTitle hover" href="http://www.andrewboutin.com/education.html">Education</a></td>
+						</tr>
+				</table>
+			</div>
+		
+			<img name="slide" id="slide" height=200 width=400 src="/pcbuild/pc-1.jpg"/>
+			<div id ="mydiv"></div>
+			<div class="push">
+			</div>
+		</div>
+		
+		<div class="footer" id="footer">
+			<table>
+				<tr>
+					<td style="width:50px"><a href="https://www.facebook.com/andrew.boutin"><img class="imgLink" src="/resources/facebook.png"></a></td>
+					<td style="width:50px"><a href="http://www.linkedin.com/pub/andrew-boutin/63/880/4a5/"><img class="imgLink" src="/resources/linkedin.png"></a></td>
+					<td style="width:50px"><a href="https://github.com/andrew-boutin"><img class="imgLink" src="/resources/github.png"></a></td>
+					<td style="width:50px"><a href="https://plus.google.com/u/0/108522795040661435966/posts"><img class="imgLink" src="/resources/googlePlus.jpg"></a></td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
