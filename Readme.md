@@ -2,7 +2,7 @@
 
 The contents for my personal website.
 
-Almost purely HTML with a little bit of JavaScript.
+Mostly HTML with a little bit of JavaScript and CSS.
 
 ###### Author
 
