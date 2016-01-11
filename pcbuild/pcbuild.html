@@ -48,12 +48,12 @@
 				};
 			
 				function swapImage(newIndex){
+				    var img = document.getElementById("slide");
+					img.src = images[newIndex];
+
 					var el = document.getElementById("mydiv");
 					el.innerHTML = captions[newIndex];
-				
-					var img = document.getElementById("slide");
-					img.src = images[newIndex];
-				
+
 					i = newIndex;
 				}
 			
