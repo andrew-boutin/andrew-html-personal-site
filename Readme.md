@@ -6,6 +6,5 @@ Mostly HTML with a little bit of JavaScript and CSS.
 
 ###### Author
 
-Andy Boutin  
-https://github.com/andrew-boutin  
+Andy Boutin
 www.andrewboutin.com  
