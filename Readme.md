@@ -2,7 +2,7 @@
 
 The repo for the site that's currently on www.andrewboutin.com is at [andrew-django-personal-site](https://github.com/andrew-boutin/andrew-django-personal-site).
 
-This was my original site using statis HTML files on a Digital Ocean droplet. The new site uses Django and other technologies.
+This was my original site using static HTML files on a Digital Ocean droplet. The new site uses Django and other technologies.
 
 ---
 
