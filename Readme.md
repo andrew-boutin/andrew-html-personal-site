@@ -1,20 +1,7 @@
-*The site in this repo is no longer in use.*
+# Personal Site Static Legacy
 
-The repo for the site that's currently on www.andrewboutin.com is at [andrew-django-personal-site](https://github.com/andrew-boutin/andrew-django-personal-site).
-
-This was my original site using static HTML files on a Digital Ocean droplet. The new site uses Django and other technologies.
+This is no longer in use. This was my original site using HTML, CSS, and Javascript statically served on a Digital Ocean droplet.
 
 ---
 
-# Personal Website
-
-The contents for my personal website.
-
-Mostly HTML with a little bit of JavaScript and CSS.
-
----
-
-###### Author
-
-Andy Boutin
-www.andrewboutin.com  
+Check out my [personal site](https://andrewboutin.com)!
